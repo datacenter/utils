@@ -16,7 +16,7 @@ setup(
 
     packages = ["vmController"],
 
-    # Project uses reStructuredText, so ensure that the docutils get.
+    # Project uses reStructuredText, so ensure that the docutils get
     # installed or upgraded on the target machine
     install_requires = ['paramiko>=1.15.1', 'vmfusion>=0.2.0', 'argparse>=1.1', 'scp>=0.8.0'],
 
