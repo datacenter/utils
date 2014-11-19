@@ -74,7 +74,10 @@ class VmController(Cmd):
         vmrun.unpause(self.vmx)
 
     def do_sendFile(self, args):
-        " Send a file from local machine to the virtual machine "
+        """
+        Send a file from local machine to the virtual machine
+        Usage: sendFile <file-in-your-local-machine> <destination-in-the-virtual-machine>
+        """
         args = args.strip().split(' ')
         if len(args) != 2:
             if args==['']:
