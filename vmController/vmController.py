@@ -50,24 +50,31 @@ class VmController(Cmd):
         self.scp = scp.SCPClient(self.ssh.get_transport())
 
     def do_start(self, *args):
+        " to start your virtual machine "
         vmrun.start(self.vmx)
 
     def do_stop(self, *args):
+        " to stop your virtual machine "
         vmrun.stop(self.vmx)
 
     def do_reset(self, *args):
+        " to reset your virtual machine "
         vmrun.reset(self.vmx)
 
     def do_suspend(self, *args):
+        " to suspend your virtual machine "
         vmrun.reset(self.vmx)
 
     def do_pause(self, *args):
+        " to pause your virtual machine "
         vmrun.pause(self.vmx)
 
     def do_unPause(self, *args):
+        " to unpause your virtual machine "
         vmrun.unpause(self.vmx)
 
     def do_sendFile(self, args):
+        " Send a file from local machine to the virtual machine "
         args = args.strip().split(' ')
         if len(args) != 2:
             if args==['']:

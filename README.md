@@ -31,15 +31,17 @@ If you don't have git, [download a zip copy of the repository](https://github.co
 
 ## Installing
 
-After downloading, install using setuptools.
+After downloading, move it to your favor location before installing it. Then: 
 
-    cd vmController
+    cd <path-to-vmController>
     sudo python install.py
 
 # Usage
-Once it is installed, try:
+To run the script, try:
  
     vmController <virtual-machine-ip-address> <user-in-the-virtual-machine> <password>
+
+Once you have started running the script, you can always use "tab" button to see what commands are available.
 
 # License
 
