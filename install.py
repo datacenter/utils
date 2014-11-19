@@ -5,4 +5,3 @@ path = os.getcwd()
 os.chdir('/usr/bin')
 os.system('sudo ln -s ' + path + '/vmController/vmController.py vmController')
 
-
