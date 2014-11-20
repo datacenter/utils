@@ -26,7 +26,7 @@ If you have git installed, clone the repository
 
 Option B:
 
-If you don't have git, [download a zip copy of the repository](https://github.com/datacenter/vmController/archive/master.zip) and extract.
+If you don't have git, [download a zip copy of the repository](https://github.com/datacenter/utils/archive/master.zip) and extract.
 
 
 ## Installing
